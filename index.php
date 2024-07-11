@@ -32,20 +32,16 @@
         <!-- Custom Theme Style -->
         <link href="css/custom.min.css" rel="stylesheet">
 
-    </head>
-    <body class="login">
-        <style>
+        <!-- Custom Theme Style -->
+        <link href="css/new_styles.css" rel="stylesheet">
 
-            .sign-in-body {
-                
-                background-color: #f0f0f0;
-                background-image: url(./images/poste-alta-tension-o-torre-alta-tension.jpg);
-                
-            }
-        </style>
+    </head>
+    <!--<body class="login">-->
+    <body class="login">
         <div>
             <a class="hiddenanchor" id="signup"></a>
             <a class="hiddenanchor" id="signin"></a>
+            <!--<div class="login_wrapper">-->
             <div class="login_wrapper">
                 <div class="animate form login_form">
                     <?php 
@@ -67,15 +63,22 @@
                             </div>
                             <div>
                                 <button type="submit" name="token" value="Login" class="btn btn-default">Iniciar Sesion</button>
-                                <a class="reset_pass" href="#">Olvidaste Tu contraseña?</a>
+                                <!-- <a class="reset_pass" href="#">Olvidaste Tu contraseña?</a> -->
                             </div>
                             <div class="clearfix"></div>
                             <div class="separator">
                                 <div class="clearfix"></div>
                                 <br />
-                                <div>
-                                    <h1><i class="fa fa-ticket"></i> Soporte</h1>
-                                    <p> <a style="text-decoration: underline;" target="_blank" href="http://github.com/amnersaucedososa">Support</a>is a Bootstrap 3 template. Privacy and Terms by <a target="_blank" style="text-decoration: underline;" href="http://github.com/amnersaucedososa">Abisoft</a></p>
+                                <div class="img-container">
+                                    <div class="img-center">
+                                        <img src="./images/long_logo_sima_black.png" width="200" height="150">
+                                        <div class="bottom-section">
+                                            Container
+                                        </div>
+                                    </div>
+                                    <h1><i class="fa fa-ticket"></i>Soporte tecnico</h1>
+                                    <!--<p> <a style="text-decoration: underline;" target="_blank" href="http://github.com/amnersaucedososa">Support</a>is a Bootstrap 3 template. Privacy and Terms by <a target="_blank" style="text-decoration: underline;" href="http://github.com/amnersaucedososa">Abisoft</a></p>-->
+                                    
                                 </div>
                             </div>
                         </form>

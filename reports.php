@@ -142,7 +142,7 @@
 
                                         }
 
-                            if(@mysqli_num_rows($users)>0){
+                            if (@mysqli_num_rows($users) > 0) {
                                 // si hay reportes
                                 $_SESSION["report_data"] = $users;
                             ?>
